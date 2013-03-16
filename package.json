@@ -1,0 +1,24 @@
+{
+  "name": "pyramid",
+  "version": "0.0.1",
+  "description": "Stacks objects based their area, bigger at the base, smaller at the top",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiderStrategies/node-pyramid"
+  },
+  "keywords": [
+    "stack",
+    "sort",
+    "area"
+  ],
+  "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  }
+}
