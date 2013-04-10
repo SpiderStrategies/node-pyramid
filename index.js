@@ -9,7 +9,7 @@ var stack = function () {
   var args =  Array.prototype.slice.call(arguments)
 
   return args.sort(function (a, b) {
-    return area(a) < area(b)
+    return area(b) - area(a)
   })
 }
 
